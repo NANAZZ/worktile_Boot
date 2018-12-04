@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.css"/>
+    <link rel="stylesheet" href="css/header.css">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <title></title>
+</head>
+<body class="bg-secondary">
+  <!------------1.网页头部------------>
+  <header>
+      <div class="header">
+          <div class="header-logo">
+              <a href="#">
+                  <img src="img/index/logo.png" class="header-logo-pic">
+              </a>
+          </div>
+          <div>
+              <ul class="list-unstyled header-list">
+                  <li class="pt-1"><a href="#">产品</a></li>
+                  <li class="pt-1"><a href="#">价格</a></li>
+                  <li class="pt-1"><a href="#">解决方案</a></li>
+                  <li class="pt-1 pr-3"><a href="#">服务</a></li>
+                  <li><a href="#" class="btn-reg">注册</a></li>
+                  <li><a href="#" class="btn-login">登录</a></li>
+              </ul>
+          </div>
+      </div>
+  </header>
+  <script>
+      $(".header").scroll(function(){
+          $(this).addClass(".header-scroll");
+      })
+  </script>
+</body>
+</html>

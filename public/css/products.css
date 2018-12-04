@@ -1,0 +1,21 @@
+.my_bgGary{
+    background:linear-gradient(to bottom,#f0f0f0,#e0e0e0);
+}
+
+/*小按钮的样式*/
+.my_btn_gray{
+    background:linear-gradient(to bottom,#f0f0f0,#e0e0e0);
+    width:1.5rem;
+}
+.my_input_w{
+    width:2rem;
+}
+
+/*右边公告中购物车的样式*/
+span.text-truncate{
+    width:50% !important;
+}
+
+.my_border_b{
+    border-bottom: 1px dashed #666 !important;
+}

@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration:none;
+}
+.footer-list{
+    height:294px;
+    padding:50px 0;
+}
+ul li.footer-title{
+    padding-bottom: 21px;
+    color: #636363;
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+}
+.list-desc,.list-desc a{
+    color: #a9a9a9;
+    line-height: 36px;
+}
+.list-desc a:hover{
+    text-decoration: none;
+    color:#919191;
+}
+.list-desc li{
+    padding-bottom:2px;
+    font-size: 14px;
+}
+.footer-pnum{
+    color: #a9a9a9;
+    line-height: 36px;
+    font-size: 18px;
+    font-family: "微软雅黑";
+}
+.footer-pnum:hover{
+    text-decoration: none;
+    color:#919191;
+}
